@@ -105,12 +105,12 @@ ul.user-navigation {
 ul.site-navigation {
     display: flex;
     justify-content: center;
-    width: 840px;
+    width: 820px;
+    margin-left: 10px;
 }
   
 ul.user-navigation {
-    max-width: 180px;
-    margin-left: auto;
+    margin-left: 55px;
     text-align: right;
 }
   
@@ -307,7 +307,6 @@ ul.user-navigation {
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 3px;
-    padding: 16px 40px;
 }
 
 .features-link-red {
@@ -364,19 +363,20 @@ ul.user-navigation {
 
 .feature-item {
     width: 300px;
-    margin-right: 60px;
+    margin-right: 100px;
+    margin-top: 10px;
 }
 
 .feature-item img {
+    margin: 0 auto;
     display: block;
     width: 300px;
-    height: 146px;
+    height: 150px;
+    margin-bottom: 20px;
 }
 
 .feature-item h3 {
-    margin: 0;
-    margin-top: 23px;
-    margin-bottom: 17px;
+    margin-bottom: 15px;
     font-weight: bold;
     font-size: 24px;
     line-height: 30px;
@@ -386,47 +386,48 @@ ul.user-navigation {
 
 .feature-item p {
     font-size: 16px;
+    line-height: 24px;
     color: #283136;
-    margin-bottom: 33px;
-    padding-right: 20px;
+    margin-bottom: 28px;
 }
 
 .wrapper {
     display: flex;
     justify-content: space-between;
-    padding-top: 39px;
-    padding-bottom: 49px;
+    padding-top: 20px;
+    padding-bottom: 40px;
     border-bottom: 2px solid #eeeeee;
 }
 
 .detail-left-column {
     width: 660px;
-    padding-top: 33px;
+    padding-top: 10px;
 }
 
 .detail-title {
-    font-weight: 700; 
+    font-weight: 500p; 
     font-size: 45px;
     line-height: 45px;
     color: #000000;
+    margin-bottom: 40px;
 }
 
 .detail-info {
-    margin-top: 32px;
     font-size: 16px;
     color: #283136;
+    margin-bottom: 45px;
 }
 
 .detail-list-title {
     margin-top: 39px;
-    margin-bottom: 24px;
+    margin-bottom: 33px;
     font-size: 16px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
 .detail-list { 
-    margin: 0;
+    margin-top: 0;
     padding: 0;
     list-style: none;
 }
@@ -450,17 +451,19 @@ ul.user-navigation {
 }
 
 .detail-right-column {
-    width: 360px;
+    width: 380px;
+    margin-right: 29px;
 }
 
 .detail-right-column img {
     display: block;
     width: 360px;
-    height: 208px;
+    height: 220px;
+    margin-top: 15px;
 }
 
 .about-us-table {
-    margin-top: 36px;
+    margin-top: 33px;
 }
   
 .about-us-table caption {
@@ -499,7 +502,7 @@ ul.user-navigation {
 }
 
 .brand {
-    padding-bottom: 81px;
+    margin-bottom: 82px;
 }
 
 .brand .logo {
@@ -508,8 +511,8 @@ ul.user-navigation {
     align-items: center;
     margin: 0;
     padding: 0;
-    padding-top: 48px;
-    padding-bottom: 44px;
+    margin-top: 20px;
+    padding-right: 100px;
     list-style: none;
     border-bottom: 2px solid #eeeeee;
 }
@@ -535,7 +538,7 @@ ul.user-navigation {
 
 .contacts {
     position: relative;
-    height: 416px;
+    height: 420px;
     margin-bottom: 67px;
 }
 
@@ -546,7 +549,7 @@ ul.user-navigation {
 
 .contacts-info {
     position: absolute;
-    top: 52px;
+    top: 40px;
     width: 220px;
     background-color: #ffffff;
     padding-left: 50px;
@@ -554,11 +557,12 @@ ul.user-navigation {
 }
 
 .design-studio {
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 30px;
     color: #000000;
     text-transform: uppercase;
+    margin-top: 60px;
 }
 
 .info-text {
@@ -570,15 +574,14 @@ ul.user-navigation {
 .phone {
     margin: 0;
     margin-top: 19px;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
     color: #8f8f8f;
 }
 
-.whute-us {
-    padding: 0;
+.write-us {
     margin-top: 23px;
-    width: 100%;
-    height: 50px;
+    padding: 16px 44px;
+    margin-bottom: 40px;
 }
 
 
@@ -792,8 +795,9 @@ ul.user-navigation {
     margin: 0;
     padding-top: 78px;
     padding-bottom: 109px;
+    margin-right: 40px;
   
-    font-weight: 500;
+    font-weight: 600;
     font-size: 55px;
     line-height: 55px;
     text-align: center;
@@ -1159,7 +1163,6 @@ ul.type-sorting-list {
   
 .catalog-list .catalog-item {
     position: relative;
-    width: 360px;
     margin-bottom: 26px;
 }
   
